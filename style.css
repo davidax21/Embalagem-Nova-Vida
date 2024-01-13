@@ -1,0 +1,244 @@
+:root{
+    --branco:#FFFFFF;
+    --backgound:#25B452;
+    --fonte-verde:#25B452;
+    --font-principal: 'Poppins', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    gap: 45px;
+    padding: 1em ;
+}
+
+.apresentacao{
+    font-family: var(--font-principal);
+    background-color:var(--backgound);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 1.1em;
+    gap: 1em;
+}
+
+.apresentacao__titulo{
+    color:var(--branco);
+    font-size:18px;
+    font-weight: 700;
+}
+
+.apresentacao__texto{
+    color:var(--branco);
+    font-size:16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.5em 1em;
+    
+}
+
+.apresentacao__texto_destaque{
+    font-weight: 700;
+}
+
+.apresentacao__link__catalago{
+   background-color: transparent;
+   padding: 0.5em 1em;
+   border-radius: 10px;
+    border: 1.5px solid var(--branco);
+}
+
+.apresentacao__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--font-principal);
+    font-weight: 700;
+}
+
+.carrossel{
+    background-color: var(--backgound);
+    margin-top: 1em;
+    padding: 0.5em;
+    color: var(--branco);
+    font-size: 10px;
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.orcamento{
+    background-color: var(--branco);
+    margin-top: 1em ;
+    padding: 2em;
+    margin: 1.5em;
+    border: 4px solid var(--backgound);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.orcamento__texto{
+    font-family: var(--font-principal);
+    color: var(--fonte-verde);
+    font-weight: 400;
+    font-size: 16px;
+   }
+
+.botao_orcamento{
+    background-color: var(--backgound);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    border: 1.5px solid var(--branco);
+ }
+ 
+ .botao_link{
+     text-decoration: none;
+     color: var(--branco);
+     font-family: var(--font-principal);
+     font-weight: 700;
+ }
+ 
+ .localizacao{
+    background-color: var(--backgound);
+    margin-top: 1em;
+    padding: 0.5em;
+    color: var(--branco);
+    font-size: 10px;
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.loja__samambaia{
+    background-color: var(--branco);
+    margin-top: 1em ;
+    padding: 2em;
+    margin: 1.5em;
+    border: 4px solid var(--backgound);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.loja__samambaia__titulo {
+    color: var(--fonte-verde);
+    font-size:20px;
+    font-weight: 700;
+}
+
+.loja__Aguas__Claras{
+    background-color: var(--branco);
+    margin-top: 1em ;
+    padding: 2em;
+    margin: 1.5em;
+    border: 4px solid var(--backgound);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.loja__Aguas__Claras__titulo {
+    color: var(--fonte-verde);
+    font-size:20px;
+    font-weight: 700;
+}
+
+.orçamento__mudanca{
+    font-family: var(--font-principal);
+    background-color:var(--backgound);
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 1em;
+    
+}
+
+.orçamento__mudanca__titulo{
+    color:var(--branco);
+    font-size:18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.orçamento__mudanca__texto{
+    color:var(--branco);
+    font-size:16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.5em 1em;
+    
+}
+
+
+
+.orçamento__mudanca__link__whatsapp{
+   background-color: transparent;
+   padding: 0.5em 1em;
+   border-radius: 10px;
+    border: 1.5px solid var(--branco);
+}
+
+.orçamento__mudanca__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--font-principal);
+    font-weight: 700;
+}
+
+.rodape{
+    font-family: var(--font-principal);
+    text-align: center;
+    margin-top:1em;
+    font-size:12px;
+    color: var(--fonte-verde);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5em;
+}
+
+.rodape__link__instagram{
+    background-color: transparent;
+    padding: 1em 1em;
+    border-radius: 10px;
+     border: 2px solid var(--fonte-verde);
+ }
+ 
+ .rodape__link{
+     text-decoration: none;
+     color: var(--fonte-verde);
+     font-family: var(--font-principal);
+     font-weight: 700;
+     display: flex;
+     align-items: center;
+     gap:1em;
+ }
+
+ .empresa{
+    font-family:var(--font-principal);
+    font-size:10px;
+    display: flex;
+    justify-content:center;
+    margin: 2em;
+    border-top: 2px solid var(--fonte-verde);
+    color: var(--fonte-verde);
+ }
