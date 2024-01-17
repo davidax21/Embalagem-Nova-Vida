@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOVA VIDA</title>
-    <link rel="stylesheet" href="style.css">
+    <title>NOVA VIDA</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <header class="cabecalho">
     <img src="asssets/Logo nova vida.svg" alt="Logo nova vida">
    <a href="https://maps.app.goo.gl/gmSFs1NBdJNXMcJ79"><img src="asssets/ICONE LOCALIZAÇÃO 1.svg" alt="Icone localização"></a> 
@@ -25,9 +27,29 @@
     <button class="apresentacao__link__catalago"><a class="apresentacao__link" href="catalogo.html">CATÁLAGO DE MATERIAIS</a></button>
     </div>
 
-    <div class="carrossel" >
-        <h2>PRODUTOS MAIS PROCURADOS</h2>
-    </div>
+    <section  >
+        <h2 class="carrossel">PRODUTOS MAIS PROCURADOS</h2>
+                            <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="asssets/Fita 45x45.svg" alt="Fita 45x45"></div>
+                    <div class="swiper-slide"><img src="asssets/Jornal.svg" alt="Jornal"></div>
+                    <div class="swiper-slide"><img src="asssets/Fita 3M.svg" alt="Fita 3M"></div>
+                    <div class="swiper-slide"><img src="asssets/STRETCH.svg" alt="STRETCH"></div>
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    
+                
+                    <!-- If we need navigation buttons -->
+                    
+                
+                    <!-- If we need scrollbar -->
+                    
+                </div>
+    </section >
 
     <div class="orcamento">
         <h2 class="orcamento__texto">CONTAMOS COM MATERIAIS DE ALTA QUALIDADE E  SUPORTE NA HORA DE ESCOLHER O MATERIAL CORRETO.</h2>
@@ -48,8 +70,8 @@
 
     <div class="loja__Aguas__Claras">
         <h1 class="loja__Aguas__Claras__titulo">LOJA ÁGUAS CLARAS</h1>
-        <img src="asssets/loja samambaia.svg" alt="Foto da loja de Águas Claras">
-        <h1 class="loja__Aguas__Claras__titulo">QN 514 CJ 02 LT 01 SAMABAIA SUL </h1>
+        <img src="asssets/loja águas claras.svg" alt="Foto da loja de Águas Claras">
+        <h1 class="loja__Aguas__Claras__titulo">ADE. CONJ 04 LT 07 ÁGUAS CLARAS </h1>
         <button class="botao_orcamento" ><a class="botao_link" href="https://maps.app.goo.gl/Rs5g6HdySbtqQhMMA">LOCALIZAÇÃO</a></button>
     </div>
 
@@ -58,6 +80,14 @@
         <h2 class="orçamento__mudanca__texto">TRABALHAMOS COM PROFISSIONAIS QUE ENTREGAM EXCELENTES SERVIÇOS!</h2>
         <button class="orçamento__mudanca__link__whatsapp"><a class="orçamento__mudanca__link" href="https://api.whatsapp.com/send?phone=5561985396386&text=Ol%C3%A1,%20gostaria%20de%20fazer%20o%20or%C3%A7amento%20de%20uma%20mudan%C3%A7a.">WHATSAPP</a></button>
         </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView:2,
+        });
+    </script>
 </body>
 
 <footer>

@@ -66,7 +66,7 @@
     margin-top: 1em;
     padding: 0.5em;
     color: var(--branco);
-    font-size: 10px;
+    font-size: 15px;
     font-family: var(--font-principal);
     display: flex;
     justify-content: center;
@@ -242,3 +242,5 @@
     border-top: 2px solid var(--fonte-verde);
     color: var(--fonte-verde);
  }
+
+
