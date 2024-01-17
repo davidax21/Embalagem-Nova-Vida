@@ -62,6 +62,12 @@
 }
 
 .carrossel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carrossel_texto{
     background-color: var(--backgound);
     margin-top: 1em;
     padding: 0.5em;
@@ -70,7 +76,7 @@
     font-family: var(--font-principal);
     display: flex;
     justify-content: center;
-    
+    width: 100%;
 }
 
 .orcamento{
